@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "scorpionlang", "scorpionlang\scorpionlang.vcxproj", "{DB3060E8-A865-482A-8E13-BDF7890C0649}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "scorpioncli", "scorpioncli\scorpioncli.vcxproj", "{2028E38B-1260-4638-8CE7-0F8961556A5C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DB3060E8-A865-482A-8E13-BDF7890C0649} = {DB3060E8-A865-482A-8E13-BDF7890C0649}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2028E38B-1260-4638-8CE7-0F8961556A5C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2028E38B-1260-4638-8CE7-0F8961556A5C}.Debug|Win32.Build.0 = Debug|Win32
+		{2028E38B-1260-4638-8CE7-0F8961556A5C}.Release|Win32.ActiveCfg = Release|Win32
+		{2028E38B-1260-4638-8CE7-0F8961556A5C}.Release|Win32.Build.0 = Release|Win32
+		{DB3060E8-A865-482A-8E13-BDF7890C0649}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DB3060E8-A865-482A-8E13-BDF7890C0649}.Debug|Win32.Build.0 = Debug|Win32
+		{DB3060E8-A865-482A-8E13-BDF7890C0649}.Release|Win32.ActiveCfg = Release|Win32
+		{DB3060E8-A865-482A-8E13-BDF7890C0649}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

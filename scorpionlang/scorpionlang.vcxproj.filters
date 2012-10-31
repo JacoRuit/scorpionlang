@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Parser">
+      <UniqueIdentifier>{980232b6-e4a4-41d5-97ee-c2ff85d598ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{8b102711-2211-4f2c-8e3f-5f11096e2f38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Parser\TokenProviders">
+      <UniqueIdentifier>{fb12ff85-c6f4-4126-8c75-32bcceb2f261}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="scorpion_parser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="scorpion_engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\scorpion_function_call_token.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\scorpion_classes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\scorpion_assign_token.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="scorpion_std.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include=".\scorpion_tokenizer.cpp">
+      <Filter>Source Files\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="scorpion_parser.cpp">
+      <Filter>Source Files\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include=".\scorpion_parse_exception.cpp">
+      <Filter>Source Files\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="scorpion_token.cpp">
+      <Filter>Source Files\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include=".\scorpion_function_call_token.cpp">
+      <Filter>Source Files\Parser\TokenProviders</Filter>
+    </ClCompile>
+    <ClCompile Include="scorpion_function.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="scorpion_engine.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="scorpion_class.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="scorpion_object.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="scorpion_scope.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include=".\scorpion_assign_token.cpp">
+      <Filter>Source Files\Parser\TokenProviders</Filter>
+    </ClCompile>
+    <ClCompile Include="scorpion_garbage_collector.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="scorpion_std.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
